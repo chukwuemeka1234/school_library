@@ -44,7 +44,7 @@ class App
     if @people.length.zero?
       puts "\nNo data yet"
     else
-    @people.each { |person| puts person }
+      @people.each { |person| puts person }
     end
   end
 
